@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-treeplanting-dev-44542-authRole",
+      "UnauthRoleArn": "arn:aws:iam::403504743178:role/amplify-treeplanting-dev-44542-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::403504743178:role/amplify-treeplanting-dev-44542-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-treeplanting-dev-44542-deployment",
+      "UnauthRoleName": "amplify-treeplanting-dev-44542-unauthRole",
+      "StackName": "amplify-treeplanting-dev-44542",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:403504743178:stack/amplify-treeplanting-dev-44542/2607daf0-6877-11ee-adfd-06633ce8ca0e",
+      "AmplifyAppId": "d2j0mpc5ifrh5r"
+    }
+  }
+}
