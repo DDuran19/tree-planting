@@ -1,13 +1,13 @@
 import "./App.css";
 import "./styles/header.css";
 import Navbar from "./components/layout/Navbar";
-import Hero from "./components/sections/Hero";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
     return (
         <>
             <Navbar />
-            <Hero />
+            <LandingPage />
         </>
     );
 }

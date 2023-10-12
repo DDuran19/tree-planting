@@ -1,21 +1,27 @@
 #hero {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 20px auto;
+    /* max-width: var(--max-width); */
+}
+section#hero {
+    position: relative;
     justify-content: center;
-    max-width: var(--max-width);
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
 }
 #hero p {
     text-align: center;
-    color: var(--color-dark);
-    text-shadow: 1px 1px 5px var(--color-accent);
+    color: var(--text-white);
+    text-shadow: 1px 1px 5px var(--text-black);
     font-size: 64px;
     font-weight: 700;
     letter-spacing: 0;
 }
 #hero p span {
-    color: var(--text-white);
+    color: var(--color-accent);
 }
 #hero p.sub-heading {
     font-size: 32px;

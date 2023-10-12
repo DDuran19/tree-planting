@@ -27,4 +27,23 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--color-primary);
+    color: var(--text-black);
+}
+article {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    width: 100ch;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+article > h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+article > p {
+    color: #666;
+    margin-top: 5px;
 }
