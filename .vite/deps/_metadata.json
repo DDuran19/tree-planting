@@ -1,0 +1,32 @@
+{
+  "hash": "1489a0d7",
+  "browserHash": "e7cf6120",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/.pnpm/react@18.2.0/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "fdafde6e",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "0d6b90a3",
+      "needsInterop": true
+    },
+    "aws-amplify": {
+      "src": "../../node_modules/.pnpm/aws-amplify@5.3.11_react-native@0.72.5/node_modules/aws-amplify/lib-esm/index.js",
+      "file": "aws-amplify.js",
+      "fileHash": "60d895fa",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-II2RT3PG": {
+      "file": "chunk-II2RT3PG.js"
+    },
+    "chunk-AUZ3RYOM": {
+      "file": "chunk-AUZ3RYOM.js"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 :root {
     --color-accent: rgba(209, 151, 147, 1);
-    --color-dark: rgba(84, 91, 85, 1);
+    --color-dark: rgb(84, 91, 85);
     --color-light: rgba(238, 213, 231, 1);
     --color-primary: rgba(204, 199, 174, 1);
     --color-secondary: rgba(246, 206, 200, 1);
@@ -21,8 +21,10 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 20px;
 }
 body {
     display: flex;
     flex-direction: column;
+    background-color: var(--color-primary);
 }

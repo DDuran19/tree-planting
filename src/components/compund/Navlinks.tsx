@@ -16,7 +16,7 @@ const Navlinks: React.FC<NavlinksProps> = ({
 }: NavlinksProps): ReactElement => {
     if (links === undefined) {
         links = [
-            { text: "Home", link: "/#hero" },
+            { text: "Home", link: "/" },
             { text: "About", link: "/#about" },
             { text: "Login", link: "/#login" },
             { text: "JOIN PETITION", link: "/#prices" },
