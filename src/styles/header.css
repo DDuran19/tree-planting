@@ -8,11 +8,12 @@
     gap: 2rem;
 }
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     margin-bottom: 1rem;
     background: var(--color-dark);
+    z-index: 1;
 }
 header > div {
     display: flex;

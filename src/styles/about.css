@@ -1,0 +1,43 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+    width: 100%;
+    min-height: 80vh;
+    background-color: #ffffffc3;
+}
+#about::before {
+    content: "";
+    background-image: url("./tree-landscape.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: -1;
+    object-fit: cover;
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#about > article {
+    background-color: unset;
+    border: unset;
+    width: 80ch;
+    text-align: center;
+}
+#about > article > p {
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 1px 1px 2px var(--text-white);
+}
+#about > article > h3 {
+    font-size: xx-large;
+    color: black;
+}

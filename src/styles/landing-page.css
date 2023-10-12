@@ -1,0 +1,29 @@
+div.landing-page {
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+img#mountain {
+    transform: translateZ(-10px) scale(2);
+}
+
+img#trees {
+    transform: translateZ(-5px) scale(1.5);
+}
+
+img#mountain,
+img#trees {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.title {
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
