@@ -19,7 +19,7 @@ const Navlinks: React.FC<NavlinksProps> = ({
             { text: "Home", link: "/" },
             { text: "About", link: "/#about" },
             { text: "Login", link: "/#login" },
-            { text: "JOIN PETITION", link: "/#prices" },
+            { text: "JOIN US", link: "/#prices" },
         ];
     }
 
